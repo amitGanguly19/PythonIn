@@ -18,3 +18,26 @@ print("float Division of x / y = ", x / y)
 print("integer division of x // y = ", x // y)
 print("Modulus of x % y = ", x % y)
 print("Power of y on x = ", x ** y)
+
+# some operations on string
+
+str_data = "Amit"
+empty_str = ""
+
+# concat operation for string    #It will work as it is defined
+full_name = str_data + " "  + "Ganguly"
+print("Full name = ", full_name)
+
+Multi_str = "Amit " * 3 #this work as its predefine 
+print("multi = ", Multi_str)
+print(type(Multi_str))
+
+# if we can use - as well ? It will not work as its not defined
+# minur_str = "amit" - "Ganguly"
+# print("Minus str = ", minur_str)
+
+# Multipy_str = "Amit" * "Ganguly"     it will not work as its not defined
+# print("Multiply = ", Multipy_str)
+
+# power_str = "amit" ** "Ganguly"      it will not work as its not defined
+# print("Power = " , power_str)
