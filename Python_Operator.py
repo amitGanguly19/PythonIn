@@ -41,3 +41,30 @@ print(type(Multi_str))
 
 # power_str = "amit" ** "Ganguly"      it will not work as its not defined
 # print("Power = " , power_str)
+
+# Assignment Operators
+# = , x = 5
+# +=, x +=  5 -> x = x + 5
+# -=, x -= 5 -> x = x - 5
+# *=, x *= 5 -> x = x * 5
+# /=, x /= 5 -> x = x / 5
+# //=, x //= 5 -> x = x // 5
+# %=, x %= 5 -> x = x % 5
+
+
+# Comparison operators 
+# == , Equals to condition, x == y
+# != , Equals to condition, x != y
+# > , Equals to condition, x > y
+# < , Equals to condition, x < y
+# >= , Equals to condition, x >= y
+# <= , Equals to condition, x <= y
+
+a = 10 
+b = 5
+print("Result of a == b ", a == b)
+print("Result of a != b ", a != b)
+print("Result of a > b ", a > b)
+print("Result of a < b ", a < b)
+print("Result of a >= b ", a >= b)
+print("Result of a <= b ", a <= b)
