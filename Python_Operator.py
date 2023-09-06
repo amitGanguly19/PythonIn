@@ -68,3 +68,14 @@ print("Result of a > b ", a > b)
 print("Result of a < b ", a < b)
 print("Result of a >= b ", a >= b)
 print("Result of a <= b ", a <= b)
+
+# Logical Operators in Python (logical check will happen for expression result)
+# and -> Returns true both statement are true
+# or -> Returns true if one of the statements are true
+# not-> reverse the result, returns false if the result is true
+
+m =10
+n= 8
+print("m>10 and n<10, Result = ", m>10 and n<10)
+print("m>10 or n<10, Result = ", m>10 or n<10)
+print("not(m>10 and n<10), Result = ", not(m>10 and n<10))
