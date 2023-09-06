@@ -1,0 +1,49 @@
+# Declare & assign variable
+int_var = 10
+float_var = 15.25
+string_var = 'ineuron batch2'  #or another way "ineuron batch2"
+bool_var = True #if we want to assign false then it should be like False
+
+
+# Function in python for output 
+# fuction does what?  they might or might not accept some parameter
+
+print("Hello World !!!")
+
+# Print varibale valus in python
+print("Value of int_var = ", int_var, "- Result done")
+print("Value of int_var = ", float_var, "- Result done")
+print("Value of int_var = ", string_var, "- Result done")
+print("Value of int_var = ", bool_var, "- Result done")
+
+# How to check the data type of any variable, so we can use TYPE() function 
+print(" type of int_var ?", type(int_var))
+print(" type of int_var ?", type(string_var))
+print(" type of int_var ?", type(float_var))
+print(" type of int_var ?", type(bool_var))
+
+# How to do type casting? 
+# int() , float(), str(), bool()
+int_var = int_var + 10
+casted_int_var = float(int_var)
+casted_float_var = int(float_var)
+
+print("INt to float typecasting for int_var = ", casted_int_var )
+print("INt to float typecasting for int_var = ", casted_float_var )
+
+numeric_str = "123"
+numeric_str = int(numeric_str) + 50  
+print("Value of numeric int_var = ", numeric_str )
+
+# how to take the inputs on python ?
+# We can use input() function
+
+name = input("Enter value for name = ")
+age = int(input("Enter value for age = "))
+print("User name = ", name)
+print("User age = ", age)
+
+print("Type of name = ", type(name))
+print("Type of name = ", type(age))
+
+# python file_name.py
